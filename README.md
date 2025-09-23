@@ -1,16 +1,48 @@
-# React + Vite
+🎬 Filmes Favoritos
+Um aplicativo simples em React para gerenciar uma lista de filmes favoritos, permitindo adicionar, marcar como assistido/não assistido, filtrar e remover filmes.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Funcionalidades:
+➕ Adicionar filmes à lista
+✅ Marcar como assistido ou não assistido
+🔍 Filtrar filmes por:
+Todos
+Apenas assistidos
+Apenas não assistidos
+❌ Remover filmes da lista
+🎨 Estilização básica com CSS
 
-Currently, two official plugins are available:
+📂 Estrutura do Projeto
+.
+├── App.jsx          # Componente principal (lógica da lista e filtros)
+├── App.css          # Estilos principais
+├── index.css        # Reset/estilos globais
+├── main.jsx         # Ponto de entrada da aplicação
+├── Header.jsx       # Formulário para adicionar filmes
+├── MovieItem.jsx    # Item individual de filme
+├── MovieList.jsx    # Lista de filmes renderizada
+├── react.svg        # Logo padrão do React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ Tecnologias Utilizadas
+React
+Vite
+ (para build e dev server)
+CSS (customizado)
 
-## React Compiler
+▶️ Como Rodar o Projeto
+Clone o repositório:
+git clone https://github.com/seu-usuario/filmes-favoritos.git
+cd filmes-favoritos
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Instale as dependências:
+npm install
+Inicie o servidor de desenvolvimento:
+npm run dev
+Abra no navegador:
+http://localhost:5173
 
-## Expanding the ESLint configuration
+📸 Layout
+Campo para adicionar filmes
+Botões de filtro (Todos | Não assistidos | Assistidos)
+Lista de filmes com botões Assistido/Desmarcar e Remover
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📌 Projeto simples para prática de React Hooks (useState) e gerenciamento de listas.
