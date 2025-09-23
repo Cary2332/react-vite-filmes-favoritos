@@ -1,7 +1,10 @@
 🎬 Filmes Favoritos
-Um aplicativo simples em React para gerenciar uma lista de filmes favoritos, permitindo adicionar, marcar como assistido/não assistido, filtrar e remover filmes.
+Um aplicativo simples em React para gerenciar uma lista de filmes favoritos, 
+permitindo adicionar, marcar como assistido/não assistido, filtrar e remover filmes.
 
 🚀 Funcionalidades:
+
+
 ➕ Adicionar filmes à lista
 ✅ Marcar como assistido ou não assistido
 🔍 Filtrar filmes por:
