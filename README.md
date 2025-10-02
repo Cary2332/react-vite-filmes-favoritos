@@ -1,12 +1,14 @@
 🎬 Filmes Favoritos
 Um aplicativo simples em React para gerenciar uma lista de filmes favoritos, 
+
 permitindo adicionar, marcar como assistido/não assistido, filtrar e remover filmes.
 
 🚀 Funcionalidades:
 
-
 ➕ Adicionar filmes à lista
+
 ✅ Marcar como assistido ou não assistido
+
 🔍 Filtrar filmes por:
 Todos
 Apenas assistidos
@@ -17,15 +19,24 @@ Apenas não assistidos
 📂 Estrutura do Projeto
 .
 ├── App.jsx          # Componente principal (lógica da lista e filtros)
+
 ├── App.css          # Estilos principais
+
 ├── index.css        # Reset/estilos globais
+
 ├── main.jsx         # Ponto de entrada da aplicação
+
 ├── Header.jsx       # Formulário para adicionar filmes
+
 ├── MovieItem.jsx    # Item individual de filme
+
 ├── MovieList.jsx    # Lista de filmes renderizada
+
 ├── react.svg        # Logo padrão do React
 
+
 🛠️ Tecnologias Utilizadas
+
 React
 Vite
  (para build e dev server)
